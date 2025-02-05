@@ -19,8 +19,6 @@ jobs:
   - run: pwd
   - name: new step 
     run: ls
-  - name: new step2
-    run: ps -aux
  Final_job:
   needs: job_on_macos
   runs-on: ubuntu-latest
